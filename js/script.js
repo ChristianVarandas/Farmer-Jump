@@ -6,7 +6,7 @@ const jump = () => {
     farmer.classList.add("pulo")
     setTimeout(()=>{
         farmer.classList.remove("pulo")
-    }, 500)
+    }, 400)
 }
 
 
@@ -15,5 +15,8 @@ const anim = () =>{
 
 }
 
+function jogar(){
+    window.location.href = "jogo.html"
+}
 
 document.addEventListener("keydown", jump)
