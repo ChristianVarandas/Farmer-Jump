@@ -8,7 +8,12 @@ const jump = () => {
         farmer.classList.remove("pulo")
     }, 400)
 }
-
+const loop = setInterval(() => {
+    let fenolado = feno.offsetLeft
+    let farmerlado =+ window.getComputedStyle(farmer).buttom.replace("px", "")
+    
+    
+}, 1);
 
 //colocando animação
 const anim = () =>{

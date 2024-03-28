@@ -53,6 +53,15 @@ body{
 .pulo{
     animation:pulo 500ms ease-out;
 }
+.feno{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:145px;
+    animation: feno-mov 1.5s infinite linear;
+}
 
 button{
     background-color:#8B4513;
@@ -80,5 +89,13 @@ button{
     }
     100%{
         bottom: 145px;
+    }
+}
+@keyframes feno-mov{
+    from{
+        right: 0px;
+    }
+    to{
+        right: 100%;
     }
 }
