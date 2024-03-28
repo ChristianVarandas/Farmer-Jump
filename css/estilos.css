@@ -1,0 +1,57 @@
+body{
+    background-image:linear-gradient(to top, #FFA500 40%, #FFD700 60%);
+    height:100vh;
+    margin:0;
+}
+
+.grama{
+    background-color:green;
+    height:30px;
+    width:100%;
+    position:fixed;
+    bottom:120px;
+}
+
+.terra{
+    background-color:#8B4513;
+    height:120px;
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
+
+.imagem_menu{
+    position:absolute;
+    left:480px;
+    top:50px;
+    height:325px;
+    
+}
+
+.placa{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:300px;
+    height:180px;
+    position:relative;
+    left:20px;
+    top:325px;
+    
+}
+
+.botão{
+    position:absolute;
+    top:50px;
+}
+
+button{
+    background-color:#8B4513;
+    color:white;
+    width:120px;
+    height:50px;
+    font-size:20px;
+    border-radius:15%;
+    border:solid 2px;
+    border-color:black;
+}
