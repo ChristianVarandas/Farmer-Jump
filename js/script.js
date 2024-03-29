@@ -18,13 +18,16 @@ const anim = setInterval(() =>{
             animacao = 1
             farmer.src = `img/farmer_run${animacao}.png` 
         }
-        console.log(animacao)
 }, 250  )
 
 const loop = setInterval(() => {
     let fenolado = feno.offsetLeft
- //   let farmerlado =+ window.getComputedStyle(farmer).buttom.replace("px", "")
-    
+    let farmerlado = +window.getComputedStyle(farmer).bottom.replace("px", "")
+
+    if(fenolado < 50 && fenolado > 0 && farmerlado < 245){
+        window.location.href = "gameover.html"
+        clearInterval(loop)
+    }   
 }, 1);
 
 
