@@ -49,18 +49,17 @@ body{
     width: 100px;
     position:absolute;
     bottom: 145px;
+    left:60px;
 }
 .pulo{
     animation:pulo 500ms ease-out;
 }
 .feno{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    background-color: aqua;
+    height: 150px;
+    width: 150px;
     position: absolute;
-    bottom:145px;
-    animation: feno-mov 1.5s infinite linear;
+    bottom:100px;
+    animation: feno-mov 2.5s infinite linear;
 }
 
 button{
