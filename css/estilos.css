@@ -43,6 +43,7 @@ body{
 .botão{
     position:absolute;
     top:50px;
+    display:grid;
 }
 .farmer{
     height: 100px;
@@ -60,6 +61,12 @@ body{
     position: absolute;
     bottom:100px;
     animation: feno-mov 2.5s infinite linear;
+}
+.vidas{
+    height: 100px;
+    width: 15%;
+    display:inline-flex;
+    padding-left: 20px;
 }
 
 button{
