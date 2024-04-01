@@ -60,7 +60,7 @@ body{
     width: 150px;
     position: absolute;
     bottom:100px;
-    animation: feno-mov 2.5s infinite linear;
+    animation: feno-mov 2.0s infinite linear;
 }
 .vidas{
     height: 100px;

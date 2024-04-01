@@ -4,9 +4,9 @@ let animacao = 1
 let vidas = 0
 
 const jump = () => {
-    farmer.classList.add("pulo")
+    farmer.classList.add("pulo") //adiciona a animação de pulo feita no css
     setTimeout(()=>{
-        farmer.classList.remove("pulo")
+        farmer.classList.remove("pulo") //retira essa animação 
     }, 400)
 }
 
@@ -31,17 +31,16 @@ const loop = setInterval(() => {
 
 
     //verifica se os dois itens estão entrando em contato 
-    if(fenolado < 50 && fenolado > 0 && farmerlado < 245){  
+    if(fenolado < 70 && fenolado > -10 && farmerlado <= 245){  
         vidas ++ 
         if (vidas >= 3){
                 document.location.href = "gameover.html"//se eles entrarem em contato pela terceira vez envia para o gameover.html
             }
             else{
-                document.getElementById("vida"+ vidas).remove()
+                document.getElementById("vida"+ vidas).remove() // tira um coração de vida se ele encostar 
             } 
     }   
-    console.log(vidas)
-}, 130);
+}, 110);
 
 
 
